@@ -32,9 +32,7 @@ class Random_Grid_SOM:
         learn_rate_initial = self.learn_rate
         
         for iteration in (range(self.no_iteration)):
-                        
-            #if iteration%500==0: print('Iteration number : {}'.format(iteration))
-                              
+                                                      
             # Select an input data at random
             i1 = iteration % self.X.shape[0]
             input_data = self.X[i1]
