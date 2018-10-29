@@ -5,7 +5,6 @@ from math import cos, sin, pi
 from sklearn.datasets import load_iris
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
-#from tqdm import tqdm
 
 class Random_Grid_SOM:
     def __init__(self, X, city_sequence,no_iteration, no_neuron = 100, learn_rate = 0.02):
